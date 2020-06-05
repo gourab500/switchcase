@@ -1,0 +1,15 @@
+a=int(input('enter 1st number : '))
+b=int(input('enter 2nd number : '))
+ 
+o = int(input('1 to add,2 to sub,3 to mul,4 to div :'))
+
+if(o==1):
+    print(a+b)
+elif(o==2):
+    print(a-b)    
+elif(o==3):
+    print(a*b)
+elif(o==4):
+    print(a/b)
+else:
+    print("invalid")
